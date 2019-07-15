@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".CrepaNutella"
+    tools:showIn="@layout/activity_crepa_nutella">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="INGREDIENTES"
+            android:textColor="@color/colorNaranja"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="
+            * 1 1/2 tazas de leche. \n
+            * 1 taza de harina. \n
+            * 2 huevos. \n
+            * 1 cuchara de aceite. \n
+            * 1/4 de cucharadita de sal. \n
+            * 2 cucharaditas de azúcar. \n
+            * nutella. \n
+            * fresas partidas. \n"
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="PROCEDIMIENTO"
+            android:textStyle="bold"
+            android:textColor="@color/colorNaranja" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="
+        1. Se ponen todos los ingredientes en la licuadora y se licual. \n
+        2. Se calienta un sarten redondo pequeño con unas gotitas de aceite (se puede distribuir por el sarten con una servilleta para que  no quede grasoso. \n
+        3. Con una cuchara honda se sirve un poco de la mezcla en el sartén, asegurando que cubra todo el sartén y se deja cocinar por unos 45 segundos hasta que este doradita por abajo. \n
+        4. Se repite lo mismo hasta hacer todas las crepas. Se acomodan en un platón engrasado doblandolas en cuatro. \n
+        5. Se pone la nutella y las fresas en las crepas. \n"
+            android:textColor="@android:color/background_dark"/>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AgregarReceta"
+    tools:showIn="@layout/activity_agregar_receta">
+
+    <LinearLayout
+        android:id="@+id/linRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@android:color/background_light"
+            card_view:cardCornerRadius="6dp"
+            card_view:cardElevation="10dp"
+            card_view:cardUseCompatPadding="true">
+
+            <ImageButton
+                android:id="@+id/bntImageP"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorNaranja"
+                android:backgroundTint="@color/colorNaranja"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pan_platano" />
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="#8c000000"
+                android:padding="10dp"
+                android:text="Pastel de Plátano"
+                android:textColor="#ffe3e3e3"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="@dimen/fab_margin"
+                app:backgroundTint="@android:color/background_light"
+                app:srcCompat="@drawable/ic_add_black_24dp" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@android:color/background_light"
+            card_view:cardCornerRadius="6dp"
+            card_view:cardElevation="10dp"
+            card_view:cardUseCompatPadding="true">
+
+            <ImageButton
+                android:id="@+id/bntImageC"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorNaranja"
+                android:backgroundTint="@color/colorNaranja"
+                android:scaleType="centerCrop"
+                android:src="@drawable/crepa" />
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="#8c000000"
+                android:padding="10dp"
+                android:text="Crepa de Nutella con Fresa"
+                android:textColor="#ffe3e3e3"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="@dimen/fab_margin"
+                app:backgroundTint="@android:color/background_light"
+                app:srcCompat="@drawable/ic_add_black_24dp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@android:color/background_light"
+            card_view:cardCornerRadius="6dp"
+            card_view:cardElevation="10dp"
+            card_view:cardUseCompatPadding="true">
+
+            <ImageButton
+                android:id="@+id/bntImageG"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorNaranja"
+                android:backgroundTint="@color/colorNaranja"
+                android:scaleType="centerCrop"
+                android:src="@drawable/gelatina" />
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="#8c000000"
+                android:padding="10dp"
+                android:text="Gelatina de Cajeta"
+                android:textColor="#ffe3e3e3"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="@dimen/fab_margin"
+                app:backgroundTint="@android:color/background_light"
+                app:srcCompat="@drawable/ic_add_black_24dp" />
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

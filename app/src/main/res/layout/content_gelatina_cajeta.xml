@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".GelatinaCajeta"
+    tools:showIn="@layout/activity_gelatina_cajeta">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="INGREDIENTES"
+            android:textColor="@color/colorNaranja"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="
+            * 1 taza de cajeta quemada. \n
+            * 1/2 taza de leche condensada (Lechera). \n
+            * 2 sobres de grenetina. \n
+            * 1 taza de leche. \n
+            * 1/2 taza de crema. \n
+            * 1/2 taza de crema. \n
+            * 1/2 taza de agua caliente. \n
+            * 1/4 de taza e agua fría. \n"
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="PROCEDIMIENTO"
+            android:textStyle="bold"
+            android:textColor="@color/colorNaranja" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="
+        1. Remoja la grenetina en 1/4 de agua fría por 10 minutos. Agrega 1/2 taza de agua caliente. \n
+        2. Agrega todos los ingredientes en la licuadora y licúa hasta que quede una mezcla homogénea. \n
+        3. Vacía en un molde de gelatina y mételo al refrigerador por 45 minutos o hasta que esté cuajada. \n
+        4. Desmolda la gelatina en un plato bonito. \n"
+            android:textColor="@android:color/background_dark"/>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

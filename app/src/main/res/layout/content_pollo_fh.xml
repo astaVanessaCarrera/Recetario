@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".PolloFH"
+    tools:showIn="@layout/activity_pollo_fh">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="INGREDIENTES"
+            android:textColor="@color/colorNaranja"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="
+        * 4 pechugas de pollo sin hueso y sin piel \n
+        * 2 cucharadas de vinagre balsámico \n
+        * 2 cucharadas de romero fresco \n
+        * 2 cucharadas de mostaza con miel y vinagre \n
+              Extra Special® \n
+        * 1 cucharada de ajo en trozo McCormick® \n
+        * 1/4 de taza de aceite de olivo extra virgen \n
+             Extra Special \n
+        * sal y pimienta al gusto \n
+        * bolsas de plástico ziplock \n"
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="PREPARACIÓN"
+            android:textColor="@color/colorNaranja"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="
+
+        1. Colocar en una bolsa resellable el vinagre, el romero, la mostaza, ajo en polvo y el aceite de olivo. \n
+        2. Sazonar las pechugas de pollo y colocar en la marinada. Sellar la bolsa y agitar. \n
+        3. Marinar por al menos 3 horas o hasta 1 día. \n
+        4. Calentar un sartén, cuando esté caliente colocar las pechugas de pollo y cocinar aproximadamente 4 minutos de cada lado o hasta que estén bien cocidas."
+            android:textColor="@android:color/background_dark" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

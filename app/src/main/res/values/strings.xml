@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">AppRecetario2</string>
+    <string name="title_activity_platillos">Platillos</string>
+    <string name="large_text"></string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_pollo_fh">PolloFH</string>
+    <string name="title_activity_pollo_achiote">PolloAchiote</string>
+    <string name="title_activity_camarones_coco">CamaronesCoco</string>
+    <string name="title_activity_camarones_diabla">CamaronesDiabla</string>
+    <string name="pollo_a_las_finas_hierbas">Pollo a las Finas Hierbas</string>
+    <string name="pollo_en_achiote">Pollo en Achiote</string>
+    <string name="camarones_al_coco">Camarones al Coco</string>
+    <string name="camarones_a_la_diabla">Camarones a la Diabla</string>
+    <string name="title_activity_pay_calabaza">PayCalabaza</string>
+    <string name="title_activity_crema_brocoli">Crema de Brocoli</string>
+    <string name="title_activity_visor_pdf">DocumentoPDF</string>
+    <string name="share">Compartir</string>
+    <string name="pay_de_calabaza">Pay de Calabaza</string>
+    <string name="crema_de_brocoli">Crema de Brocoli</string>
+    <string name="title_activity_login">Bienvenido</string>
+    <!-- Strings related to login -->
+    <string name="prompt_username">User Name</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Entrar</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_registro">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_agregar_receta">AgregarReceta</string>
+    <string name="title_activity_pan_platano">PanPlatano</string>
+    <string name="title_activity_crepa_nutella">CrepaNutella</string>
+    <string name="title_activity_gelatina_cajeta">GelatinaCajeta</string>
+</resources>

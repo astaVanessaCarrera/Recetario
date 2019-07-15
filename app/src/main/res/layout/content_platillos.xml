@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Platillos"
+    tools:showIn="@layout/activity_platillos">
+
+    <LinearLayout
+        android:id="@+id/linRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@android:color/background_light"
+            card_view:cardCornerRadius="6dp"
+            card_view:cardElevation="10dp"
+            card_view:cardUseCompatPadding="true">
+
+            <ImageButton
+                android:id="@+id/bntImage1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorNaranja"
+                android:backgroundTint="@color/colorNaranja"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pollofh" />
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="#8c000000"
+                android:padding="10dp"
+                android:text="@string/pollo_a_las_finas_hierbas"
+                android:textColor="#ffe3e3e3"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card3"
+            card_view:cardCornerRadius="6dp"
+            card_view:cardElevation="10dp"
+            card_view:cardPreventCornerOverlap="false"
+            card_view:cardUseCompatPadding="true"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+            <ImageButton
+                android:id="@+id/bntImage3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorNaranja"
+                android:backgroundTint="@color/colorNaranja"
+                android:scaleType="centerCrop"
+                android:src="@drawable/camaronescoco" />
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="#8c000000"
+                android:padding="10dp"
+                android:text="@string/camarones_al_coco"
+                android:textColor="#ffe3e3e3"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/colorNaranja"
+            android:backgroundTint="@color/colorNaranja"
+            card_view:cardCornerRadius="6dp"
+            card_view:cardElevation="10dp"
+            card_view:cardPreventCornerOverlap="false"
+            card_view:cardUseCompatPadding="true">
+
+            <ImageButton
+                android:id="@+id/bntImage4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorNaranja"
+                android:backgroundTint="@color/colorNaranja"
+                android:scaleType="centerCrop"
+                android:src="@drawable/camaronesdiabla" />
+
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="#8c000000"
+                android:padding="10dp"
+                android:text="@string/camarones_a_la_diabla"
+                android:textColor="#ffe3e3e3"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card5"
+            card_view:cardCornerRadius="6dp"
+            card_view:cardElevation="10dp"
+            card_view:cardPreventCornerOverlap="false"
+            card_view:cardUseCompatPadding="true"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+            <ImageButton
+                android:id="@+id/bntImage5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorNaranja"
+                android:backgroundTint="@color/colorNaranja"
+                android:scaleType="centerCrop"
+                android:src="@drawable/paycalabaza" />
+
+            <TextView
+                android:id="@+id/txt5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="#8c000000"
+                android:padding="10dp"
+                android:text="@string/pay_de_calabaza"
+                android:textColor="#ffe3e3e3"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card6"
+            card_view:cardCornerRadius="6dp"
+            card_view:cardElevation="10dp"
+            card_view:cardPreventCornerOverlap="false"
+            card_view:cardUseCompatPadding="true"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+            <ImageButton
+                android:id="@+id/bntImage6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorNaranja"
+                android:backgroundTint="@color/colorNaranja"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cremabrocoli" />
+
+            <TextView
+                android:id="@+id/txt6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="#8c000000"
+                android:padding="10dp"
+                android:text="@string/crema_de_brocoli"
+                android:textColor="#ffe3e3e3"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

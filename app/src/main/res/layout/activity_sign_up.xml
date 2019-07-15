@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="@color/colorNaranja"
+    android:orientation="vertical"
+    android:padding="20dip"
+    tools:context=".SignUp">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_bar_height"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:toolbarId="@+id/toolbar">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorNaranja" />
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:backgroundTint="@color/colorNaranja"
+        android:drawableLeft="@drawable/ic_mail_outline_black_24dp"
+        android:hint=" Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorNaranja"
+        android:textColorHighlight="@color/colorNaranja"
+        android:textColorHint="@color/colorNaranja"
+        android:textColorLink="@color/colorNaranja" />
+
+    <EditText
+        android:id="@+id/txtUserN"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorNaranja"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:hint=" Usuario"
+        android:inputType="text"
+        android:textColor="@color/colorNaranja"
+        android:textColorHighlight="@color/colorNaranja"
+        android:textColorHint="@color/colorNaranja"
+        android:textColorLink="@color/colorNaranja" />
+
+    <EditText
+        android:id="@+id/txtPass"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:layout_marginBottom="30dip"
+        android:backgroundTint="@color/colorNaranja"
+        android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+        android:hint=" Contraseña"
+        android:inputType="textPassword"
+        android:textColor="@color/colorNaranja"
+        android:textColorHighlight="@color/colorNaranja"
+        android:textColorHint="@color/colorNaranja"
+        android:textColorLink="@color/colorNaranja" />
+
+    <Button
+        android:id="@+id/btnReg"
+        android:background="@drawable/capsule"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/colorNaranja"
+        android:text="REGISTRARSE"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/link_to_login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dip"
+        android:layout_marginBottom="40dip"
+        android:backgroundTint="@color/colorNaranja"
+        android:gravity="center"
+        android:text="¿Ya tienes cuenta? INGRESAR"
+        android:textColor="@color/colorNaranja"
+        android:textSize="20dip" />
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".CamaronesDiabla"
+    tools:showIn="@layout/activity_camarones_diabla">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="INGREDIENTES"
+            android:textColor="@color/colorNaranja"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="
+            * 8 piezas de chile guajillo desvenado. \n
+            * 3 piezas de chile de árbol. \n
+            * 2 dientes de ajo. \n
+            * 1/4 de pieza de cebolla. \n
+            * 2 piezas de chile chipotle adobado. \n
+            * 2 cucharadas de Aceite de Oliva \n
+                Extra Especial®. \n
+            * 2 cucharadas de mantequilla. \n
+            * 1/4 de pieza de cebolla finamente picada. \n
+            * 2 piezas de jitomate finamente picado. \n
+            * 1 pizca de sal Great Value®. \n
+            * 1 pizca de pimienta. \n
+            * 4 tazas de camarón mediano limpio. \n
+            * 1/2 cucharadita de sal Great Value®. \n
+            * 1/4 de cucharadita de pimienta. \n
+            * 2 cucharadas de cilantro finamente picado. \n"
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="PROCEDIMIENTO"
+            android:textStyle="bold"
+            android:textColor="@color/colorNaranja" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="
+        1. Hierve agua en una ollita a fuego medio. Retira del fuego y remoja los chiles guajillos y los de árbol durante 5 minutos o hasta que se ablanden. \n
+        2. Licúa los chiles con el ajo, la cebolla, el chile chipotle y un poco del líquido de remojo de los chiles. \n
+        3. En una ollita a fuego medio, calienta la mantequilla y el aceite. Fríe la cebolla hasta que esté transparente y agrega el jitomate. Añade la salsa y cocina alrededor de 10 minutos hasta que espese. Sazona con sal y pimienta. \n
+        4. En una sartén profunda a fuego medio, fríe los camarones con el aceite de oliva y sazona con sal y pimienta. Agrega la salsa y mezcla muy bien. Cocina 5 minutos más y termina con cilantro picado. \n"
+            android:textColor="@android:color/background_dark" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
