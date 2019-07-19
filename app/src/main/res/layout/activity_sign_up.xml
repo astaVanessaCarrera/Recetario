@@ -83,7 +83,7 @@
         android:textColorLink="@color/colorNaranja" />
 
     <Button
-        android:id="@+id/btnReg"
+        android:id="@+id/btnRegistrar"
         android:background="@drawable/capsule"
         style="?android:textAppearanceSmall"
         android:layout_width="match_parent"

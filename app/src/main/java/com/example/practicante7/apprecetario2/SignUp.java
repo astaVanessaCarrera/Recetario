@@ -46,7 +46,7 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
         txtEmail = findViewById(R.id.txtEmail);
         txtUserN = findViewById(R.id.txtUserN);
         txtPass = findViewById(R.id.txtPass);
-        btnRegistrar = findViewById(R.id.btnReg);
+        btnRegistrar = findViewById(R.id.btnRegistrar);
 
         //region GO TO LOGIN
         TextView linkToLo = findViewById(R.id.link_to_login);
